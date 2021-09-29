@@ -1,0 +1,106 @@
+body{background-color: antiquewhite;
+    font-family: 'Open Sans', sans-serif;
+
+}
+h1,h2,h3,h4,h5,h6{color: black;}
+.container{
+    
+max-width: 1000px;
+background-color: #ccccbe;
+margin: 0% auto ;
+padding: 20px;
+}
+
+.profile-image{
+width: 0 auto;
+height:130px;
+border: 2px solid rgb(255, 255, 255);
+border-radius: 20px; 
+float: left;
+margin-top:30px;
+}
+
+.header-bio{
+    float: left;
+    padding: 30px;
+    color: rgb(0, 0, 0);
+    }
+
+
+
+    .header-contact{
+        float: right;
+        padding: 30PX;
+    }
+
+
+    .header-contact a {
+ text-decoration : none;
+ color:rgb(0, 0, 0);
+
+    }
+    .header-contact a:hover{text-decoration: underline;
+    color: tomato;}
+
+                              /*div clearing*/
+.div-clear{clear: both;}
+
+hr{border: 2px black solid;}
+
+
+                      /*personal information*/
+:content{margin-bottom:30px;}
+.left-div
+{color: rgb(0, 0, 0);
+float: left;
+width: 50%;
+}
+
+.right-div{
+width: 50%;
+    float: left;
+}
+                     /*personal information end*/
+
+
+                     /*div clearning with horizental*/
+
+.common-hr{
+border: solid  black 1px;
+border-bottom: none;
+margin: 0 auto;
+width: 100%;
+}
+
+
+              /*double left div right-div1 and right div-2*/
+.right-div1{
+float: left;
+width: 45%;
+
+}
+
+.right-div2{
+
+    float:left;
+    width: 45%;
+    text-align: center;
+}
+
+/*footer*/
+
+.footer-control{
+    background-color: black;
+text-align: center;
+color: white;
+padding: 20px;
+}
+.footer-control a{color: white;
+text-decoration: none;
+margin: 20px;}
+
+.footer-control a:hover{
+
+    text-decoration: underline;
+    color: yellow;
+}
